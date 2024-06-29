@@ -30,7 +30,9 @@ const DarkMode = () => {
             src={Darkpng}
             alt="Dark mode button"
             onClick={changeTheme}
-            className="w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300"
+            className={`w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 ${
+              theme !== "dark" ? "opacity-0" : "opacity-100"
+            }`}
           />
         ) : (
           <img

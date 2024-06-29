@@ -25,6 +25,7 @@ const Navbar = () => {
               <div>
                 <DarkMode />
               </div>
+
               <ul className="hidden sm:flex gap-4">
                 <li>
                   <a

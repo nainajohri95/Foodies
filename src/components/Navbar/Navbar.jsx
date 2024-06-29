@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from "../../assets/food-logo.png";
+import { FaCartShopping } from "react-icons/fa6";
+import DarkMode from "./DarkMode";
 
 const Navbar = () => {
   return (
@@ -9,7 +11,7 @@ const Navbar = () => {
        dark:bg-gray-900
         dark:text-white duration-200"
       >
-        <div className="container">
+        <div className="container py-3 sm:py-0">
           <div className="flex items-center justify-between">
             <div>
               <a
@@ -19,8 +21,11 @@ const Navbar = () => {
                 <img src={Logo} alt="Logo" className="w-10" /> Foodies
               </a>
             </div>
-            <div>
-              <ul className="flex gap-4">
+            <div className="flex items-center gap-4">
+              <div>
+                <DarkMode />
+              </div>
+              <ul className="hidden sm:flex gap-4">
                 <li>
                   <a
                     href="#"
@@ -46,6 +51,20 @@ const Navbar = () => {
                   </a>
                 </li>
               </ul>
+              <button
+                className="bg-gradient-to-r
+                 from-primary
+                  to-secondary
+                   text-white 
+                   px-4 py-1 
+                   rounded-full 
+                   hover:scale-105
+               duration-300
+                flex items-center gap-3"
+              >
+                order
+                <FaCartShopping className="text-white drop-shadow-sm cursor-pointer" />
+              </button>
             </div>
           </div>
         </div>

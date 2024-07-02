@@ -54,7 +54,7 @@ const Services = () => {
                 return (
                   <div
                     key={id}
-                    className="max-w-[300px] group rouned-2xl bg-white  hover:bg-primary hover:text-white duration-300 p-4 shadow-xl rounded-lg"
+                    className="max-w-[300px] group rouned-2xl bg-white  hover:bg-primary hover:text-white duration-300 p-4 shadow-xl rounded-lg "
                   >
                     <div className="h-[100px]">
                       <img

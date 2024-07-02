@@ -6,9 +6,11 @@ import Services from "./components/Services/Services";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Services />
+      <div className="bg-white dark:">
+        <Navbar />
+        <Hero />
+        <Services />
+      </div>
     </>
   );
 };

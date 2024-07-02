@@ -7,7 +7,7 @@ const ServicesData = [
     img: Img2,
     name: "Dum Briyani",
     description:
-      " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ab error qui? Illo, pariatur nisi itaque tenetur neque quidem sunt",
+      "Indulge in our Dum Biryani, a fragrant and flavorful dish where long-grain basmati rice is slow-cooked with marinated chicken, aromatic spices, and herbs in a sealed pot. This traditional cooking method ensures that every bite is infused with rich flavors and a tantalizing aroma",
   },
 
   {
@@ -15,15 +15,15 @@ const ServicesData = [
     img: Img2,
     name: "Hyderabadi Biryani",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ab error qui? Illo, pariatur nisi itaque tenetur neque quidem sunt",
+      "Experience the rich and aromatic Hyderabadi Biryani, a signature dish of perfectly spiced basmati rice layered with tender, marinated chicken and infused with saffron and traditional spices. This delectable delicacy offers an exquisite taste of Hyderabad's culinary heritage.",
   },
 
   {
     id: 3,
     img: Img2,
-    name: "Cold Cofee",
+    name: "Special Briyani",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ab error qui? Illo, pariatur nisi itaque tenetur neque quidem sunt?",
+      "Our Special Biryani is a culinary masterpiece that combines tender marinated chicken, aromatic basmati rice, and a blend of secret spices cooked to perfection. Each mouthful offers a burst of flavors and textures, making it a favorite among biryani enthusiasts. Experience the essence of tradition and taste in every delightful bite.",
   },
 ];
 
@@ -66,7 +66,7 @@ const Services = () => {
                     </div>
                     <div className="p-4 text-center">
                       <h1 className="text-xl font-bold">{name}</h1>
-                      <p className="text-gray-500 text-sm line-clamp-2 duration-300">
+                      <p className="text-gray-500 text-sm line-clamp-8 duration-300">
                         {description}
                       </p>
                     </div>

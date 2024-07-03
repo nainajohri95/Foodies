@@ -18,8 +18,10 @@ const Banner = () => {
 
           {/* Text-container section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
-            <h1 className="text-3xl sm:text-4xl font-bold">Chicken Briyani</h1>
-            <p className="text-sm text-gray-500 tracking-wide leading-5">
+            <h1 className="text-3xl sm:text-4xl font-bold dark:text-white">
+              Chicken Briyani
+            </h1>
+            <p className="text-sm text-gray-500 tracking-wide leading-5 dark:text-white">
               Indulge in our mouthwatering Chicken Biryani, a fragrant and
               flavorful rice dish cooked with tender chicken, aromatic spices,
               and fresh herbs. Each bite offers a perfect blend of savory and

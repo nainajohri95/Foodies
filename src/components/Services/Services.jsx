@@ -23,7 +23,7 @@ const ServicesData = [
     img: Img2,
     name: "Special Briyani",
     description:
-      "Our Special Biryani is a culinary masterpiece that combines tender marinated chicken, aromatic basmati rice, and a blend of secret spices cooked to perfection. Each mouthful offers a burst of flavors and textures, making it a favorite among biryani enthusiasts. Experience the essence of tradition and taste in every delightful bite.",
+      "Our Special Biryani is a culinary masterpiece that combines tender marinated chicken. Each mouthful offers a burst of flavors and textures, making it a favorite among biryani enthusiasts. Experience the essence of tradition and taste in every delightful bite.",
   },
 ];
 
@@ -34,14 +34,10 @@ const Services = () => {
         <div className="container">
           {/* Header Section */}
           <div className="text-center mb-20 max-w-[400px] mx-auto">
-            <p
-              className="text-sm bg-clip-text
-            text-transparent bg-gradient-to-r from-primary to-secondary"
-            >
+            <h1 className="text-3xl font-bold  dark:text-white">
               Our Services
-            </p>
-            <h1 className="text-3xl font-bold">Services</h1>
-            <p className="text-xs text-gray-400">
+            </h1>
+            <p className="text-xs text-black-400 dark:text-white">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Possimus, beatae esse? Veritatis qui ipsum aut iure. Distinctio
               odio eos unde!
@@ -66,7 +62,7 @@ const Services = () => {
                     </div>
                     <div className="p-4 text-center">
                       <h1 className="text-xl font-bold">{name}</h1>
-                      <p className="text-gray-500 text-sm line-clamp-8 duration-300">
+                      <p className="text-black-500 text-sm line-clamp-8 duration-300">
                         {description}
                       </p>
                     </div>

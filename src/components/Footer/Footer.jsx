@@ -15,30 +15,30 @@ const Footer = () => {
         <div className="max-w-[1200px] mx-auto">
           <div className="grid md:grid-cols-3 py-5">
             <div className="py-8 px-4 ">
-              <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
+              <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left  dark:text-white">
                 <img src={FooterLogo} alt="" className="max-w-[50px]" />
                 FOODIES
               </h1>
-              <p>
+              <p className="dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
                 nulla ipsa voluptatum ad iure amet! Blanditiis unde earum fuga
                 ipsa quaerat architecto eius nostrum. Doloremque veniam laborum
                 quam libero aliquid?
               </p>
               <br />
-              <div className="flex items-center gap-3 mt-6">
+              <div className="flex items-center gap-3 mt-6  dark:text-white">
                 <div>
                   <FaLocationArrow />
                 </div>
                 <p>Noida, Uttar Pradesh</p>
               </div>
-              <div className="flex items-center gap-3 mt-6">
+              <div className="flex items-center gap-3 mt-6 dark:text-white">
                 <FaMobileAlt />
                 <p>+91 7457867725</p>
               </div>
             </div>
             {/* social handles */}
-            <div>
+            <div className=" dark:text-white">
               {" "}
               <div className="flex items-center gap-3 mt-6">
                 <a href="#">

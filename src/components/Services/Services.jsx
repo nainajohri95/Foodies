@@ -1,29 +1,31 @@
 import React from "react";
-import Img2 from "../../assets/biryani2.png";
+import Img2 from "../../assets/food5.png";
+import Img3 from "../../assets/icecream.png";
+import Img4 from "../../assets/pizza.png";
 
 const ServicesData = [
   {
     id: 1,
     img: Img2,
-    name: "Dum Briyani",
+    name: "Main Course",
     description:
-      "Indulge in our Dum Biryani, a fragrant and flavorful dish where long-grain basmati rice is slow-cooked with marinated chicken, aromatic spices, and herbs in a sealed pot. This traditional cooking method ensures that every bite is infused with rich flavors and a tantalizing aroma",
+      "We pride ourselves on offering delicious main course selection that caters to all tastes.Including our famous biryanis, expertly marinated meats, all crafted with the freshest ingredients and aromatic spices.",
   },
 
   {
     id: 2,
-    img: Img2,
-    name: "Hyderabadi Biryani",
+    img: Img3,
+    name: "Ice-Cream",
     description:
-      "Experience the rich and aromatic Hyderabadi Biryani, a signature dish of perfectly spiced basmati rice layered with tender, marinated chicken and infused with saffron and traditional spices. This delectable delicacy offers an exquisite taste of Hyderabad's culinary heritage.",
+      " we also offer a range of creamy, handcrafted ice creams, available in a variety of classic and unique flavors. Come and savor the flavors that make our restaurant a favorite among food lovers.",
   },
 
   {
     id: 3,
-    img: Img2,
-    name: "Special Briyani",
+    img: Img4,
+    name: "Pizza",
     description:
-      "Our Special Biryani is a culinary masterpiece that combines tender marinated chicken. Each mouthful offers a burst of flavors and textures, making it a favorite among biryani enthusiasts. Experience the essence of tradition and taste in every delightful bite.",
+      "Apart from all this we also provide a variety of delicious pizzas, freshly baked to perfection. Enjoy our mouth-watering toppings and crispy crusts that are sure to delight your taste buds.",
   },
 ];
 
@@ -37,10 +39,12 @@ const Services = () => {
             <h1 className="text-4xl font-bold  dark:text-white">
               Our Services
             </h1>
-            <p className="text-xs text-black-400 dark:text-white">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Possimus, beatae esse? Veritatis qui ipsum aut iure. Distinctio
-              odio eos unde!
+            <p className="text-s text-black-400 dark:text-white mt-4">
+              Explore our diverse menu featuring an array of culinary delights.
+              From hearty main courses crafted with the finest ingredients to
+              indulgent ice creams that offer a cool, creamy escape, and
+              flavorful pizzas that promise to tantalize your taste
+              buds—discover a world of deliciousness with our varied offerings.
             </p>
           </div>
           {/* Card section */}
@@ -61,7 +65,7 @@ const Services = () => {
                       />
                     </div>
                     <div className="p-4 text-center">
-                      <h1 className="text-xl font-bold">{name}</h1>
+                      <h1 className="text-xl font-bold mt-6">{name}</h1>
                       <p className="text-black-500 text-sm line-clamp-8 duration-300">
                         {description}
                       </p>

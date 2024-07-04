@@ -20,7 +20,7 @@ const Footer = () => {
                 FOODIES
               </h1>
               <p className="dark:text-white">
-                Lorem ipsum dolor sit amet consectetur elit.
+                Discover flavors that tell a story.
               </p>
               <br />
               <div className="flex items-center gap-3  dark:text-white ">

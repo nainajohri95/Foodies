@@ -1,5 +1,5 @@
 import React from "react";
-import Food1 from "../../assets/biryani5.png";
+import Food1 from "../../assets/food6.png";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
@@ -19,13 +19,12 @@ const Banner = () => {
           {/* Text-container section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
             <h1 className="text-3xl sm:text-4xl font-bold dark:text-white">
-              Chicken Briyani
+              Chowmein
             </h1>
             <p className="text-sm text-gray-500 tracking-wide leading-5 dark:text-white w-1/2 ">
-              Indulge in our mouthwatering Chicken Biryani, a fragrant and
-              flavorful rice dish cooked with tender chicken, aromatic spices,
-              and fresh herbs. Each bite offers a perfect blend of savory and
-              spicy notes, promising an unforgettable culinary experience.
+              Order now for our delectable chicken chowmein, a savory stir-fry
+              noodle dish that promises to satisfy your cravings with every
+              bite.
             </p>
             <div className="flex gap-6">
               <div>

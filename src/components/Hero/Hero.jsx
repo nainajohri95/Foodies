@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import bgImg from "../../assets/vector3.png";
 import Food1 from "../../assets/biryani2.png";
-import Food2 from "../../assets/biryani3.png";
-import Food3 from "../../assets/biryani5.png";
+import Food4 from "../../assets/food4.png";
+import Food5 from "../../assets/food5.png";
 
 const ImageList = [
   {
     id: 1,
-    img: Food1,
+    img: Food4,
   },
   {
     id: 2,
-    img: Food2,
+    img: Food5,
   },
   {
     id: 3,
-    img: Food3,
+    img: Food1,
   },
 ];
 const bgImage = {
@@ -65,10 +65,10 @@ const Hero = () => {
                 Welcome to the Foodies
               </h1>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-                velit accusamus culpa maxime expedita atque quisquam voluptas
-                praesentium. Id hic nemo, quasi sed aut omnis sit eaque quidem
-                deserunt! Commodi.
+                Discover flavors that tell a story. <br /> <br />
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores fuga aliquid cumque sint dolore consequuntur nam
+                dolorum autem!
               </p>
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary text-white px-2 py-2 rounded-full hover:scale-150 duration-150">
@@ -102,7 +102,7 @@ const Hero = () => {
                     className="max-w-[80px] h-[80px] object-contain inline-block hover:scale-150 duration-200"
                     onClick={() => {
                       setImageId(
-                        item.id === 1 ? Food1 : item.id === 2 ? Food2 : Food3
+                        item.id === 1 ? Food4 : item.id === 2 ? Food5 : Food1
                       );
                     }}
                   />

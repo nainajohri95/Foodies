@@ -6,7 +6,7 @@ import Gif from "../../assets/mobile_bike.gif";
 const AppStore = () => {
   return (
     <>
-      <div className="container bg-gray-100 dark:bg-gray-900 py-14">
+      <div className="container bg-gray-100 dark:bg-gray-900 py-14 -mt-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4">
           <div className="space-y-6 max-w-xl mx-auto">
             <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold dark:text-gray-400 text-gray-700">

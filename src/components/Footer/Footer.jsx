@@ -11,7 +11,7 @@ import { FaMobileAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className="dark:bg-gray-950">
+      <div className="dark:bg-gray-900">
         <div className="max-w-[1200px] mx-auto">
           <div className="grid md:grid-cols-3 py-5">
             <div className="py-8 px-4 ">
@@ -20,13 +20,10 @@ const Footer = () => {
                 FOODIES
               </h1>
               <p className="dark:text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                nulla ipsa voluptatum ad iure amet! Blanditiis unde earum fuga
-                ipsa quaerat architecto eius nostrum. Doloremque veniam laborum
-                quam libero aliquid?
+                Lorem ipsum dolor sit amet consectetur elit.
               </p>
               <br />
-              <div className="flex items-center gap-3 mt-6  dark:text-white">
+              <div className="flex items-center gap-3  dark:text-white ">
                 <div>
                   <FaLocationArrow />
                 </div>
@@ -38,7 +35,7 @@ const Footer = () => {
               </div>
             </div>
             {/* social handles */}
-            <div className=" dark:text-white">
+            <div className=" dark:text-white mt-4">
               {" "}
               <div className="flex items-center gap-3 mt-6">
                 <a href="#">

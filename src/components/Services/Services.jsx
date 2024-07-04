@@ -34,7 +34,7 @@ const Services = () => {
         <div className="container">
           {/* Header Section */}
           <div className="text-center mb-20 max-w-[400px] mx-auto">
-            <h1 className="text-3xl font-bold  dark:text-white">
+            <h1 className="text-4xl font-bold  dark:text-white">
               Our Services
             </h1>
             <p className="text-xs text-black-400 dark:text-white">

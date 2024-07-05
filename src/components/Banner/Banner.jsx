@@ -3,6 +3,7 @@ import Food1 from "../../assets/food6.png";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
+import { BiChair } from "react-icons/bi";
 
 const Banner = () => {
   return (
@@ -26,16 +27,16 @@ const Banner = () => {
               noodle dish that promises to satisfy your cravings with every
               bite.
             </p>
-            <div className="flex gap-6">
-              <div>
-                <GrSecure className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400" />
-              </div>
-              <div>
-                <IoFastFood className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-orange-400" />
-              </div>
-              <div>
-                <GiFoodTruck className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 dark:bg-green-400" />
-              </div>
+            <div className="flex gap-6 ">
+              <button>
+                <BiChair className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-orange-400 dark:bg-red-400 hover:scale-105 duration-400" />
+              </button>
+              <button>
+                <IoFastFood className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-yellow-400 dark:bg-orange-400 hover:scale-105 duration-400" />
+              </button>
+              <button>
+                <GiFoodTruck className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-400 dark:bg-green-400 hover:scale-105 duration-400" />
+              </button>
             </div>
             <button className="w-1/2 bg-gradient-to-r from-primary to-secondary text-white px-1 py-3 rounded-full hover:scale-105 duration-200">
               Order Now

@@ -18,7 +18,7 @@ const Banner = () => {
           />
 
           {/* Text-container section */}
-          <div className="flex flex-col justify-center gap-6 sm:pt-0">
+          <div className="flex flex-col justify-center items-center text-center gap-6 sm:items-start sm:text-left sm:pt-0">
             <h1 className="text-3xl sm:text-4xl font-bold dark:text-white">
               Chowmein
             </h1>

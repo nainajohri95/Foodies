@@ -77,10 +77,7 @@ const Hero = () => {
               </div>
             </div>
             {/* Image section */}
-            <div
-              className="order-1 sm:order-2 min-h-[450px] sm:min-h-[450px] flex *:justify-center items-center
-            relative"
-            >
+            <div className="order-1 sm:order-2 min-h-[450px] sm:min-h-[450px] flex justify-center items-center relative">
               {/* main image section */}
               <div className="flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden">
                 <img
